@@ -13,6 +13,7 @@ end
 def selection(num)
   num = get_user_input
   if num = 1
+    binding.pry
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
