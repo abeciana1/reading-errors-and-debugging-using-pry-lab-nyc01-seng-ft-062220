@@ -1,17 +1,17 @@
 require 'pry'
 
-def get_user_input
-  if 
-    puts 1
-  else 
-    puts 2
-  end
-end
-
 def prompt_user
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
+end
+
+def get_user_input
+  if prompt_user == true
+    p 1
+  else 
+    p 2
+  end
 end
 
 def selection(num)
